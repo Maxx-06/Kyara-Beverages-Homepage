@@ -12,7 +12,7 @@
         height: 550px;
     }
 
-    .product img{
+    .product img {
         height: 75%;
     }
 
@@ -37,7 +37,7 @@
 
     .about-line {
         font-size: 1rem;
-        margin: 0 20%;
+        margin: 0 5%;
     }
 
     .effect {
@@ -49,11 +49,11 @@
         font-weight: 400;
     }
 
-    .product-section{
+    .product-section {
         padding: 20px 10%;
     }
 
-    .product{
+    .product {
         height: 520px;
     }
 
@@ -69,6 +69,11 @@
         letter-spacing: 1.5px;
         font-weight: 500;
 
+
+    }
+
+    .contact-section {
+        padding: 20px 5%;
 
     }
 
