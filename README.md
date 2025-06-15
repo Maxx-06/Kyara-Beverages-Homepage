@@ -1,3 +1,11 @@
+# My Website Project
+
+A simple responsive website built using HTML, CSS.
+
+## 🔗 Live Demo
+
+👉 [Click here to visit the website](https://preeminent-parfait-a411d9.netlify.app/)
+
 ## 📖 How to View Locally
 
 1. Download the folder or clone the repository.
