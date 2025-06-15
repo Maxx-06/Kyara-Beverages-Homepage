@@ -4,7 +4,7 @@ A simple responsive website built using HTML, CSS.
 
 ## 🔗 Live Demo
 
-👉 [Click here to visit the website](https://preeminent-parfait-a411d9.netlify.app/)
+👉 [Click here to visit the website](https://kyara-beverages-homepage.netlify.app/)
 
 ## 📖 How to View Locally
 
