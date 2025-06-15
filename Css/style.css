@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    scroll-behavior: smooth;
+    background-color: black;
+    z-index: -3;
+}
+
+.section-top {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.section-top img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.hero-banner {
+    background-color: rgba(0, 0, 0, .2);
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    backdrop-filter: blur(1px);
+
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 50px 0px;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    word-spacing: 15px;
+    letter-spacing: 5px;
+
+}
+
+.tagline {
+    color: #fff;
+    height: calc(100% - 150px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 0 20%;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 2px;
+}
+
+
+.about-section {
+    width: 100%;
+    background-color: black;
+    height: fit-content;
+    color: #fff;
+}
+
+.about-us {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #969696;
+    font-family: "Playfair Display", serif;
+    padding: 40px 0 20px 0;
+}
+
+.about-line {
+    height: fit-content;
+    font-size: 1.5rem;
+    color: #c9c9c9;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 24px 24px 50px 24px;
+    letter-spacing: 2px;
+
+}
+
+.effect {
+    color: white;
+    font-size: 1.8rem;
+    font-style: italic;
+}
+
+
+
+.product-heading {
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #969696;
+    font-family: "Playfair Display", serif;
+    margin: 40px 0 20px 0;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.product-section {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    width: 100%;
+    gap: 50px;
+    padding: 20px 10%;
+}
+
+
+.product {
+    width: 100%;
+    height: 600px;
+    max-width: 350px;
+    color: rgba(223, 223, 223, 0.906);
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 4px rgba(255, 255, 255, 0.07);
+    transition: all 0.3s ease;
+}
+
+.product:hover {
+    box-shadow:
+        0 0 15px rgba(255, 255, 255, 0.15),
+        0 0 30px rgba(200, 200, 200, 0.1);
+    transform: translateY(-3px);
+}
+
+.product img {
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.prd-name {
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 5px 0px;
+    letter-spacing: 2px;
+
+}
+
+.prd-des {
+    font-family: "Playfair Display", serif;
+    font-size: .8rem;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin: 0 10px;
+    color: #ababab;
+
+}
+
+.effect-des {
+    color: #fff;
+}
+
+
+/* contact section start */
+
+.contact-section {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 20%;
+}
+
+.contact-section h2 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #969696;
+    font-family: "Playfair Display", serif;
+    padding: 60px 0 20px 0;
+    text-align: center;
+
+}
+
+.decorator {
+    height: 2px;
+    max-width: 70px;
+    margin: 0 auto;
+    background-color: #96969628;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+.contact-form-text {
+    width: 100%;
+    display: block;
+    margin: 10px auto;
+    border: none;
+    padding: 20px 30px;
+    background-color: #111;
+    color: white;
+    outline: none;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+
+}
+
+
+.contact-form-text:hover,
+.contact-form-text:active {
+    box-shadow:
+        0 0 15px rgba(255, 255, 255, 0.15),
+        0 0 30px rgba(200, 200, 200, 0.1);
+}
+
+textarea.contact-form-text {
+    resize: none;
+    height: 120px;
+}
+
+
+textarea.contact-form-text::-webkit-scrollbar {
+    width: 0px;
+}
+
+textarea.contact-form-text::-webkit-scrollbar-track {
+    background: #000000;
+    border-radius: 10px;
+}
+
+textarea.contact-form-text::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 10px;
+}
+
+textarea.contact-form-text::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+.contact-form-btn {
+    width: 150px;
+    font-size: .8rem;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    padding: 1em 3em;
+    border-radius: 20px;
+    float: right;
+    color: #ffffff;
+    background-color: #111;
+    border: none;
+    margin: 10px 0px 10px auto;
+
+}
+
+.contact-form-btn:hover {
+    box-shadow:
+        0 0 15px rgba(255, 255, 255, 0.15),
+        0 0 30px rgba(200, 200, 200, 0.1);
+
+}
+
+.footer-section {
+    width: 100%;
+    height: 200px;
+    font-size: .8rem;
+    font-weight: 500;
+    color: #969696;
+    font-family: "Montserrat", sans-serif;
+    padding: 40px 0;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}

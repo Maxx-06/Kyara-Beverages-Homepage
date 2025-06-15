@@ -1,0 +1,97 @@
+/* website for fine with device width greater than 800px */
+
+@media screen and (min-width:920px) and (max-width:1500px) {
+
+
+    .product-section {
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+
+    .product {
+        width: 100%;
+        height: 550px;
+    }
+
+    .product img{
+        height: 75%;
+    }
+
+}
+
+/* mediaquery to target device less than 800px */
+@media screen and (max-width:800px) {
+    .logo {
+        font-size: 1.5rem;
+        word-spacing: 10px;
+        font-weight: 700;
+    }
+
+    .tagline {
+        font-size: 2.3rem;
+    }
+
+    .about-us {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .about-line {
+        font-size: 1rem;
+        margin: 0 20%;
+    }
+
+    .effect {
+        font-size: 1.2rem;
+    }
+
+    .product-heading {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .product-section{
+        padding: 20px 10%;
+    }
+
+    .product{
+        height: 520px;
+    }
+
+    .prd-name {
+        font-size: .8rem;
+        font-weight: 700;
+        padding: 20px 0 5px 0;
+        letter-spacing: 1px;
+    }
+
+    .prd-des {
+        font-size: .7rem;
+        letter-spacing: 1.5px;
+        font-weight: 500;
+
+
+    }
+
+    .contact-section h2 {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .contact-form-text {
+        font-size: .8rem;
+        font-weight: 400;
+
+    }
+
+    .contact-form-text::placeholder {
+        font-size: .8rem;
+        font-weight: 400;
+    }
+
+    .contact-form-btn {
+        width: 120px;
+        font-size: .6rem;
+        font-weight: 600;
+        padding: 1em 2em;
+    }
+}
