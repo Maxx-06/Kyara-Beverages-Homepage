@@ -1,6 +1,6 @@
 # My Website Project
 
-A simple responsive website built using HTML, CSS.
+A simple responsive website built using HTML, CSS, and GSAP for smooth animations.
 
 ## 🔗 Live Demo
 
@@ -9,32 +9,42 @@ A simple responsive website built using HTML, CSS.
 ## 📖 How to View Locally
 
 1. Download the folder or clone the repository.
-2. Open the folder in Vs code.
-3. Install liver-server extension, than right click on index.html file --> [open with live-server] it will open the website in browser.
+2. Open the folder in VS Code.
+3. Install the **Live Server** extension, then right-click on the `index.html` file → **Open with Live Server**. It will launch the website in your browser.
 
 ## 🛠️ Tools & Frameworks Used
 
-- **HTML** - for structure.
-- **CSS** - for styling & designing.
-  _I made this site using pure css without any css framework._
+- **HTML** – for structure.
+- **CSS** – for styling & layout.  
+  _This site is built using pure CSS without any CSS framework._
+- **GSAP (GreenSock Animation Platform)** – for scroll-triggered and entrance animations.
+
+## ✨ Animations
+
+- The website includes smooth entrance animations using **GSAP**.
+- Animations are applied to elements as they appear in the viewport, enhancing user engagement.
+- **ScrollTrigger** from GSAP is used to trigger animations on scroll.
+- Effects include fade-ins, slide-ins, and staggered animations on sections like About, Products, and Contact Form.
 
 ## 📸 Screenshots
 
-_Here are screenshots of website for different viewport_
+_Here are screenshots of the website on different viewports._
 
-_For mobile phone (<480px)_
-![Hero Section Screenshot](/screenshots/Mobile%20view/mobile-1.jpg)
-![About Section Screenshot](/screenshots/Mobile%20view/mobile-2.jpg)
-![Product Section Screenshot](/screenshots/Mobile%20view/mobile-3.jpg)
-![Product Section Screenshot](/screenshots/Mobile%20view/mobile-4.jpg)
-![Product Section Screenshot](/screenshots/Mobile%20view/mobile-5.jpg)
-![Product Section Screenshot](/screenshots/Mobile%20view/mobile-6.jpg)
-![Contact Section Screenshot](/screenshots/Mobile%20view/mobile-7.jpg)
+### 📱 Mobile View (<480px)
 
-_For Desktop (>1024px)_
-![Hero Section Screenshot](/screenshots/Desktop%20view/desktop-1.png)
-![About Section Screenshot](/screenshots/Desktop%20view/desktop-2.png)
-![Product Section Screenshot](/screenshots/Desktop%20view/desktop-3.png)
-![Product Section Screenshot](/screenshots/Desktop%20view/desktop-4.png)
-![Contact Section Screenshot](/screenshots/Desktop%20view/desktop-5.png)
+![Hero Section Screenshot](/screenshots/Mobile%20view/mobile-1.jpg)  
+![About Section Screenshot](/screenshots/Mobile%20view/mobile-2.jpg)  
+![Product Section Screenshot](/screenshots/Mobile%20view/mobile-3.jpg)  
+![Product Section Screenshot](/screenshots/Mobile%20view/mobile-4.jpg)  
+![Product Section Screenshot](/screenshots/Mobile%20view/mobile-5.jpg)  
+![Product Section Screenshot](/screenshots/Mobile%20view/mobile-6.jpg)  
+![Contact Section Screenshot](/screenshots/Mobile%20view/mobile-7.jpg)  
+
+### 💻 Desktop View (>1024px)
+
+![Hero Section Screenshot](/screenshots/Desktop%20view/desktop-1.png)  
+![About Section Screenshot](/screenshots/Desktop%20view/desktop-2.png)  
+![Product Section Screenshot](/screenshots/Desktop%20view/desktop-3.png)  
+![Product Section Screenshot](/screenshots/Desktop%20view/desktop-4.png)  
+![Contact Section Screenshot](/screenshots/Desktop%20view/desktop-5.png)  
 ![Contact Section Screenshot](/screenshots/Desktop%20view/desktop-6.png)
