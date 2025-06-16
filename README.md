@@ -5,6 +5,8 @@ A simple responsive website built using HTML, CSS, and GSAP for smooth animation
 ## 🔗 Live Demo
 
 👉 [Click here to visit the website](https://kyara-beverages-homepage.netlify.app/)
+👉 [Click here to watch video of website in mobile](https://drive.google.com/file/d/1HlQW6RsdQVMsAWSYS0cRi8DXL9164D6D/view?pli=1)
+👉 [Click here to watch video of website in mobile](https://drive.google.com/file/d/1abcF1rJiCBpHMor5iSZOuW2ogAOcplWG/view?usp=drive_link)
 
 ## 📖 How to View Locally
 
@@ -38,7 +40,7 @@ _Here are screenshots of the website on different viewports._
 ![Product Section Screenshot](/screenshots/Mobile%20view/mobile-4.jpg)  
 ![Product Section Screenshot](/screenshots/Mobile%20view/mobile-5.jpg)  
 ![Product Section Screenshot](/screenshots/Mobile%20view/mobile-6.jpg)  
-![Contact Section Screenshot](/screenshots/Mobile%20view/mobile-7.jpg)  
+![Contact Section Screenshot](/screenshots/Mobile%20view/mobile-7.jpg)
 
 ### 💻 Desktop View (>1024px)
 
