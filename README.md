@@ -8,6 +8,8 @@ A simple responsive website built using HTML, CSS, and GSAP for smooth animation
 👉 [Click here to watch video of website in mobile](https://drive.google.com/file/d/1HlQW6RsdQVMsAWSYS0cRi8DXL9164D6D/view?pli=1)
 👉 [Click here to watch video of website in desktop](https://drive.google.com/file/d/1abcF1rJiCBpHMor5iSZOuW2ogAOcplWG/view?usp=drive_link)
 
+## 🦉 Github Link: 👉 (https://github.com/Maxx-06/Kyara-Beverages-Homepage)
+
 ## 📖 How to View Locally
 
 1. Download the folder or clone the repository.
