@@ -35,12 +35,14 @@
     </div>
     <!-- product section -->
 
-    <h2 class="product-heading">Product</h2>
+    <div class="prd-headline">
+      <h2 class="product-heading">Product</h2>
       <div class="decorator"></div>
+    </div>
 
     <div class="product-section">
       <!-- first prd -->
-      <div class="product">
+      <div class="product prd-1">
         <img src="/images/coffee.jpg" alt="Coffee drink" />
         <h3 class="prd-name">Hot Coffee</h3>
         <p class="prd-des">
@@ -85,18 +87,43 @@
       <h2>Contact Us</h2>
       <div class="decorator"></div>
       <form class="contact-form">
-        <input type="text" class="contact-form-text" placeholder="Your name" />
-        <input type="text" class="contact-form-text" placeholder="Your email" />
+        <input
+          type="text"
+          class="contact-form-text from-lf"
+          placeholder="Your name"
+        />
+        <input
+          type="text"
+          class="contact-form-text from-lf"
+          placeholder="Your email"
+        />
         <textarea
-          class="contact-form-text"
+          class="contact-form-text from-lf"
           placeholder="Your message"
         ></textarea>
-        <input type="button" class="contact-form-btn" value="Submit" />
+        <input type="button" class="contact-form-btn from-lf" value="Submit" />
       </form>
     </div>
 
-    <div class="footer-section">
+    <div class="footer-section from-lf">
       Copyright © 2025 Kyara Beverages - All Rights Reserved.
     </div>
+
+    <!-- script file -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+      integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"
+      integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="/script/script.js"></script>
   </body>
 </html>
